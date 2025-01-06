@@ -1,0 +1,120 @@
+/* Dark theme background */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Main container styling */
+.quiz-container {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    padding: 2rem;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* Title */
+h1 {
+    color: #bb86fc;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Question counter */
+.question-counter {
+    font-size: 1.2rem;
+    color: #03dac6;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+/* Card styling for question and options */
+.card {
+    background-color: #2c2c2c;
+    border: none;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card h4 {
+    color: #bb86fc;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.card-body {
+    margin-top: 1rem;
+}
+
+/* Buttons */
+.btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #bb86fc;
+    border: none;
+    color: #121212;
+}
+
+.btn-primary:hover {
+    background-color: #9c72dc;
+}
+
+.btn-success {
+    background-color: #03dac6;
+    border: none;
+    color: #121212;
+}
+
+.btn-success:hover {
+    background-color: #02b3a3;
+}
+
+.btn-danger {
+    background-color: #cf6679;
+    border: none;
+    color: #121212;
+}
+
+.btn-danger:hover {
+    background-color: #b44e5f;
+}
+
+/* Layout for buttons */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-group .btn {
+    flex-grow: 1;
+    margin: 0 0.5rem;
+}
+
+/* Radio buttons for options */
+.form-check {
+    margin-bottom: 1rem;
+}
+
+.form-check-input {
+    background-color: #333;
+    border: 2px solid #e0e0e0;
+}
+
+.form-check-input:checked {
+    background-color: #bb86fc;
+    border-color: #bb86fc;
+}
+
+.form-check-label {
+    color: #e0e0e0;}
